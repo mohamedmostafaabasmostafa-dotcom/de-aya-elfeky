@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         setTimeout(function() {
             loadingOverlay.style.display = 'none';
-            
             const card = document.querySelector('.card');
             card.classList.add('fade-in');
         }, 500);
