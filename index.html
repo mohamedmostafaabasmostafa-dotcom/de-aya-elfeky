@@ -1,90 +1,110 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="الصفحة الرسمية للدكتورة آية الفقي -رقم الهاتف روابط اليوتيوب، الفيسبوك، والواتساب.">
-    <meta property="og:title" content="الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس">
-<meta property="og:description" content="الصفحة الرسمية للدكتورة آية الفقي - روابط المحاضرات، المنصة، اليوتيوب، الفيسبوك والواتساب.">
-<meta property="og:image" content="teacher.png">
-<meta property="og:url" content="https://dr-aya-elfeky.vercel.app/">
-<meta property="og:type" content="website">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس">
-<meta name="twitter:description" content="الصفحة الرسمية للدكتورة آية الفقي - روابط المحاضرات والمنصة واليوتيوب.">
-<meta name="twitter:image" content="teacher.png">
+  <!-- Meta -->
+  <meta name="description" content="الصفحة الرسمية للدكتورة آية الفقي -رقم الهاتف روابط اليوتيوب، الفيسبوك، والواتساب.">
+  <meta property="og:title" content="الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس">
+  <meta property="og:description" content="الصفحة الرسمية للدكتورة آية الفقي - روابط المحاضرات، المنصة، اليوتيوب، الفيسبوك والواتساب.">
+  <meta property="og:image" content="teacher.png">
+  <meta property="og:url" content="https://dr-aya-elfeky.vercel.app/">
+  <meta property="og:type" content="website">
 
-    <title>الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس">
+  <meta name="twitter:description" content="الصفحة الرسمية للدكتورة آية الفقي - روابط المحاضرات والمنصة واليوتيوب.">
+  <meta name="twitter:image" content="teacher.png">
+
+  <!-- Title -->
+  <title>الدكتورة آية الفقي | مدرس الفلسفة وعلم النفس</title>
+
+  <!-- Favicon & App Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#6c4ccf">
+
+  <!-- Fonts: Tajawal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Icons & Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Enforce Tajawal globally without كسر تنسيقاتك -->
+  <style>
+    html, body, button, input, select, textarea {
+      font-family: "Tajawal", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
+  </style>
 </head>
 <body>
-    <div class="loading-overlay" id="loadingOverlay">
-        <div class="loader"></div>
-    </div>
-    
-    <div class="container">
-        <div class="card">
-            <div class="teacher-image">
-                <img src="teacher.png" alt="الدكتورة آية الفقي - مدرس الفلسفة وعلم النفس">
-            </div>
-            
-            <h1 class="teacher-name">د. آيه الفقي</h1>
-            <p class="teacher-subject">مدرس الفلسفة وعلم النفس</p>
-            
-            <div class="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100077795492446" class="social-link facebook">
-                    <span class="social-text">الفيسبوك</span>
-                    <div class="social-icon">
-                        <i class="fab fa-facebook-f"></i>
-                    </div>
-                </a>
-                <a href="https://www.youtube.com/channel/UCB8Q2_MlIoPIJ5vspDqfuoA" class="social-link youtube">
-                    <span class="social-text">اليوتيوب</span>
-                    <div class="social-icon">
-                        <i class="fab fa-youtube"></i>
-                    </div>
-                </a>
-                <a href="https://whatsapp.com/channel/0029VbBDhFEBVJl2kOhxJ62f" class="social-link whatsapp">
-                    <span class="social-text">قناة الواتساب</span>
-                    <div class="social-icon">
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
-                </a>
-                                <a href="tel:01096018130" class="social-link phone">
-                    <span class="social-text">اتصل الآن</span>
-                    <div class="social-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
-                </a>
-                <a href="https://account.firststepacademy.online/teacher-profile/79" class="social-link platform">
-                    <span class="social-text">المنصة</span>
-                    <div class="social-icon">
-                        <img src="elmnsa.jpg" alt="منصة المدرس">
-                    </div>
-                </a>
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loader"></div>
+  </div>
 
-            </div>
-            
-            <div class="phone-number">
-                <a href="tel:01096018130">
-                    <i class="fas fa-phone"></i>
-                    01096018130
-                </a>
-            </div>
-            
-            <div class="tooltip">
-                <a class="button share-btn" id="shareBtn">
-                    <i class="fas fa-share-alt"></i> مشاركة الرابط
-                </a>
-                <span class="tooltiptext" id="tooltipText">انقر لنسخ الرابط</span>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+    <div class="card">
+      <div class="teacher-image">
+        <img src="teacher.png" alt="الدكتورة آية الفقي - مدرس الفلسفة وعلم النفس">
+      </div>
 
-    <script src="script.js"></script>
+      <h1 class="teacher-name">د. آيه الفقي</h1>
+      <p class="teacher-subject">مدرس الفلسفة وعلم النفس</p>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100077795492446" class="social-link facebook">
+          <span class="social-text">الفيسبوك</span>
+          <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/channel/UCB8Q2_MlIoPIJ5vspDqfuoA" class="social-link youtube">
+          <span class="social-text">اليوتيوب</span>
+          <div class="social-icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+        </a>
+        <a href="https://whatsapp.com/channel/0029VbBDhFEBVJl2kOhxJ62f" class="social-link whatsapp">
+          <span class="social-text">قناة الواتساب</span>
+          <div class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+        </a>
+        <a href="tel:01096018130" class="social-link phone">
+          <span class="social-text">اتصل الآن</span>
+          <div class="social-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+        </a>
+        <a href="https://account.firststepacademy.online/teacher-profile/79" class="social-link platform">
+          <span class="social-text">المنصة</span>
+          <div class="social-icon">
+            <img src="elmnsa.jpg" alt="منصة المدرس">
+          </div>
+        </a>
+      </div>
+
+      <div class="phone-number">
+        <a href="tel:01096018130">
+          <i class="fas fa-phone"></i>
+          01096018130
+        </a>
+      </div>
+
+      <div class="tooltip">
+        <a class="button share-btn" id="shareBtn">
+          <i class="fas fa-share-alt"></i> مشاركة الرابط
+        </a>
+        <span class="tooltiptext" id="tooltipText">انقر لنسخ الرابط</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
