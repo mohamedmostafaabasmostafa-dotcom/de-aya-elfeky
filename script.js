@@ -1,4 +1,4 @@
-    document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
       function createParticles() {
         const particlesContainer = document.getElementById('particles');
         const particleCount = 20;
